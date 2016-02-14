@@ -12,10 +12,10 @@ setup(
     version='0.1.0',
     packages=['lightpdf'],
     include_package_data=True,
-    license='BSD License',
+    license='MIT License',
     description='A simple Django app to help generate pdfs',
     long_description=README,
-    url='https://github.com/claudiutopriceanu/django-lightpdf',
+    url='https://github.com/claudiutopriceanu/django-lightpdf/archive/v0.1.0.tar.gz',
     author='Claudiu Topriceanu',
     author_email='ctopriceanu@example.com',
     classifiers=[

@@ -15,7 +15,7 @@ setup(
     license='BSD License',
     description='A simple Django app to help generate pdfs',
     long_description=README,
-    url='https://www.example.com/',
+    url='https://github.com/claudiutopriceanu/django-lightpdf',
     author='Claudiu Topriceanu',
     author_email='ctopriceanu@example.com',
     classifiers=[

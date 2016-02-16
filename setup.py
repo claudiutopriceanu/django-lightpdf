@@ -9,13 +9,14 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-lightpdf',
-    version='0.1.0',
+    version='0.1.1',
     packages=['lightpdf'],
+    install_requires=['pdfkit'],
     include_package_data=True,
     license='MIT License',
     description='A simple Django app to help generate pdfs',
     long_description=README,
-    url='https://github.com/claudiutopriceanu/django-lightpdf/archive/v0.1.0.tar.gz',
+    url='https://github.com/claudiutopriceanu/django-lightpdf',
     author='Claudiu Topriceanu',
     author_email='ctopriceanu@example.com',
     classifiers=[
